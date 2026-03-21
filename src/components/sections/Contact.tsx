@@ -97,7 +97,7 @@ export const Contact = () => {
         initial={{ opacity: 0, y: 18 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.45, ease: 'easeOut' }}
+        transition={{ duration: 0.45, ease: "easeOut" as const }}
         className="grid gap-4 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]"
       >
         <form

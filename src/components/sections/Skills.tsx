@@ -73,7 +73,7 @@ const cardVariants = {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { delay: 0.08 + i * 0.04, duration: 0.4, ease: 'easeOut' },
+    transition: { delay: 0.08 + i * 0.04, duration: 0.4, ease: "easeOut" as const },
   }),
 }
 
@@ -85,7 +85,7 @@ export const Skills = () => {
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.15 }}
-        transition={{ duration: 0.5, ease: 'easeOut' }}
+        transition={{ duration: 0.5, ease: "easeOut" as const }}
         className="grid min-h-[480px] gap-4 overflow-hidden rounded-2xl border border-slate-800/80 bg-slate-950/95 shadow-xl shadow-black/40 backdrop-blur-xl md:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] lg:min-h-[520px]"
       >
         {/* Left: Featured / legend / controls (like NASA sidebar) */}
@@ -163,7 +163,7 @@ export const Skills = () => {
                       initial={{ width: 0 }}
                       whileInView={{ width: `${skill.level}%` }}
                       viewport={{ once: true, amount: 0.6 }}
-                      transition={{ duration: 0.7, ease: 'easeOut' }}
+                      transition={{ duration: 0.7, ease: "easeOut" as const }}
                       className="h-full rounded-full bg-gradient-to-r from-indigo-500 via-sky-500 to-fuchsia-500 shadow-[0_0_12px_rgba(99,102,241,0.7)]"
                     />
                   </div>

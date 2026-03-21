@@ -21,7 +21,7 @@ export const Experience = () => {
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.4 }}
-          transition={{ duration: 0.45, ease: 'easeOut' }}
+          transition={{ duration: 0.45, ease: "easeOut" as const }}
           className="relative ml-8 rounded-2xl border border-slate-800/80 bg-slate-950/90 p-4 shadow-lg shadow-black/50 backdrop-blur-xl md:ml-10"
         >
           <div className="absolute -left-8 top-4 flex h-10 w-10 items-center justify-center rounded-2xl border border-indigo-500/80 bg-slate-950/95 text-indigo-200 shadow-lg shadow-indigo-500/40 md:-left-10">

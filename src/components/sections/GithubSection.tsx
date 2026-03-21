@@ -26,7 +26,7 @@ export const GithubSection = () => {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.45, ease: 'easeOut' }}
+        transition={{ duration: 0.45, ease: "easeOut" as const }}
         className="grid gap-4 md:grid-cols-[1.4fr_minmax(0,1fr)]"
       >
         <article className="space-y-4 rounded-2xl border border-slate-800/80 bg-slate-950/90 p-4 shadow-lg shadow-black/50 backdrop-blur-xl">

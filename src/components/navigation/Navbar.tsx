@@ -36,7 +36,7 @@ export const Navbar = () => {
     <motion.header
       initial={{ y: -40, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, ease: 'easeOut' }}
+      transition={{ duration: 0.5, ease: "easeOut" as const }}
       className="fixed inset-x-0 top-0 z-40"
     >
       <div className="mx-auto max-w-6xl px-4 md:px-6 lg:px-8">

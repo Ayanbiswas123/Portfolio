@@ -6,7 +6,7 @@ const cardVariants = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: 0.1 + i * 0.05, duration: 0.4, ease: 'easeOut' },
+    transition: { delay: 0.1 + i * 0.05, duration: 0.4, ease: "easeOut" as const },
   }),
 }
 
@@ -34,7 +34,7 @@ export const About = () => {
           initial={{ opacity: 0, y: 14 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.5, ease: 'easeOut' }}
+          transition={{ duration: 0.5, ease: "easeOut" as const }}
           className="space-y-4 rounded-2xl border border-slate-800/80 bg-section-gradient p-5 text-sm leading-relaxed text-slate-300 shadow-lg shadow-black/40 backdrop-blur-xl"
         >
           <p>
@@ -60,7 +60,7 @@ export const About = () => {
           initial={{ opacity: 0, y: 14 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
+        transition={{ duration: 0.5, ease: "easeOut" as const, delay: 0.1 }}
           className="space-y-4"
         >
           <div className="relative overflow-hidden rounded-2xl border border-slate-800/80 bg-slate-950/80 p-4 shadow-lg shadow-black/40 backdrop-blur-xl">
