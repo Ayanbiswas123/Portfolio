@@ -166,7 +166,7 @@ export const Contact = () => {
             )}
             {status === 'error' && (
               <span className="text-xs text-rose-400">
-                Something went wrong. Check EmailJS config or try again later.
+                Something went wrong.
               </span>
             )}
           </div>
@@ -190,13 +190,13 @@ export const Contact = () => {
               <span>AI‑driven features or integrations that impact users directly.</span>
             </li>
           </ul>
-          <p className="mt-2 text-[11px] text-slate-400">
+          {/* <p className="mt-2 text-[11px] text-slate-400">
             Configure EmailJS by adding{' '}
             <span className="font-mono text-slate-300">
               VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, VITE_EMAILJS_PUBLIC_KEY
             </span>{' '}
             to your `.env` file in the project root.
-          </p>
+          </p> */}
         </div>
       </motion.div>
     </section>
