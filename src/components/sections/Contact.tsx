@@ -1,4 +1,5 @@
-import { FormEvent, useRef, useState } from 'react'
+import { useRef, useState } from 'react'
+import type { FormEvent } from 'react'
 import { motion } from 'framer-motion'
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { FiMail, FiSend } from 'react-icons/fi'
