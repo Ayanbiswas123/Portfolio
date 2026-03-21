@@ -62,7 +62,7 @@ export const Contact = () => {
 
         <div className="flex items-center gap-3 text-lg">
           <a
-            href="https://github.com/"
+            href="https://github.com/Ayanbiswas123"
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-transparent bg-slate-950/90 p-2 text-slate-300 shadow-sm shadow-black/40 transition hover:border-indigo-500/80 hover:bg-slate-900 hover:text-white"
@@ -70,7 +70,7 @@ export const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/ayan-biswas-b1b9b9257/"
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-transparent bg-slate-950/90 p-2 text-slate-300 shadow-sm shadow-black/40 transition hover:border-sky-500/80 hover:bg-slate-900 hover:text-sky-300"
@@ -86,7 +86,7 @@ export const Contact = () => {
             <FaInstagram />
           </a>
           <a
-            href="mailto:ayan@example.com"
+            href="mailto:ayankgp1@gmail.com"
             className="rounded-full border border-transparent bg-slate-950/90 p-2 text-slate-300 shadow-sm shadow-black/40 transition hover:border-emerald-500/80 hover:bg-slate-900 hover:text-emerald-300"
           >
             <FiMail />

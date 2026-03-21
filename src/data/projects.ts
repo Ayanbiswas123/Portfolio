@@ -17,8 +17,8 @@ export const projects: Project[] = [
       'Full‑stack learning management system with role‑based dashboards, real‑time progress tracking, secure authentication, and content management.',
     image: '/images/lms-placeholder.png',
     techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind'],
-    github: 'https://github.com/',
-    demo: 'https://example.com',
+    github: 'https://github.com/Ayanbiswas123/Learning-Management-System',
+    demo: 'https://bidyahub.vercel.app/',
     category: 'Full Stack',
   },
   {

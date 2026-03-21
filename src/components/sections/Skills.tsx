@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { FiCpu, FiDatabase, FiLayers, FiTool } from 'react-icons/fi'
 import { SkillsOrbit } from '../skills/SkillsOrbit'
