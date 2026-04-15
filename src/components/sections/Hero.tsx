@@ -102,7 +102,7 @@ export const Hero = () => {
           </button>
 
           <a
-            href="#"
+            href="/Ayan_Resume.pdf"
             className="inline-flex items-center gap-2 rounded-full border border-slate-700/70 bg-slate-900/70 px-4 py-2.5 text-sm font-medium text-slate-100 outline-none transition hover:border-indigo-400/80 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400"
           >
             <FiDownload className="h-4 w-4" />
