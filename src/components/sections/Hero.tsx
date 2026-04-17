@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { FiArrowRight, FiDownload, FiMail } from 'react-icons/fi'
-import { HeroCanvas } from '../hero/HeroCanvas'
 
 const containerVariants = {
   hidden: { opacity: 0, y: 24 },
@@ -153,30 +152,15 @@ export const Hero = () => {
           transition={{ duration: 0.9, ease: "easeOut" as const }}
           className="relative"
         >
-          <HeroCanvas />
-
-          <div className="pointer-events-none absolute inset-0">
-            <div className="absolute -left-6 top-6 h-16 w-16 animate-float-slow rounded-3xl border border-slate-500/40 bg-slate-900/80 shadow-lg shadow-sky-500/40 backdrop-blur-xl">
-              <span className="absolute inset-0 flex items-center justify-center text-[11px] font-semibold text-sky-300">
-                React
-              </span>
-            </div>
-            <div className="absolute -right-4 top-20 h-14 w-14 animate-float-medium rounded-3xl border border-slate-500/40 bg-slate-900/80 shadow-lg shadow-emerald-500/40 backdrop-blur-xl">
-              <span className="absolute inset-0 flex items-center justify-center text-[11px] font-semibold text-emerald-300">
-                Node
-              </span>
-            </div>
-            <div className="absolute left-4 bottom-8 h-12 w-12 animate-float-medium rounded-3xl border border-slate-500/40 bg-slate-900/80 shadow-lg shadow-sky-400/40 backdrop-blur-xl">
-              <span className="absolute inset-0 flex items-center justify-center text-[10px] font-semibold text-sky-200">
-                Docker
-              </span>
-            </div>
-            <div className="absolute -right-2 bottom-4 h-14 w-14 animate-float-slow rounded-3xl border border-slate-500/40 bg-slate-900/80 shadow-lg shadow-fuchsia-500/40 backdrop-blur-xl">
-              <span className="absolute inset-0 flex items-center justify-center text-[11px] font-semibold text-fuchsia-300">
-                AI
-              </span>
-            </div>
+          {/* <HeroCanvas /> */}
+          <div className="relative h-64 w-64 overflow-hidden rounded-[2.5rem] border border-slate-700/70 bg-slate-950/80 shadow-2xl shadow-indigo-500/30 backdrop-blur-2xl sm:h-72 sm:w-72 lg:h-80 lg:w-80">
+            <img
+              src="/profile_pic.jpeg"
+              alt="Ayan Biswas profile"
+              className="h-full w-full object-cover"
+            />
           </div>
+
         </motion.div>
       </div>
     </section>
